@@ -1,0 +1,36 @@
+button, .button {
+  background-color: #AEDEF4;
+  color: white;
+  border: none;
+  box-shadow: none;
+  font-size: 17px;
+  font-weight: 500;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 15px 35px;
+  margin: 26px 5px 0 5px;
+  cursor: pointer; }
+  button:focus, .button:focus {
+    outline: none; }
+  button:hover, .button:hover {
+    background-color: #a1d9f2; }
+  button:active, .button:active {
+    background-color: #81ccee; }
+  button.cancel, .button.cancel {
+    background-color: #D0D0D0; }
+    button.cancel:hover, .button.cancel:hover {
+      background-color: #c8c8c8; }
+    button.cancel:active, .button.cancel:active {
+      background-color: #b6b6b6; }
+  button.download, .button.download {
+    position: fixed;
+    right: 30px;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #ABCADA;
+    font-weight: 500;
+    text-transform: uppercase;
+    z-index: 3; }
+    @media all and (max-width: 1278px) {
+      button.download, .button.download {
+        display: none; } }
